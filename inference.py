@@ -23,7 +23,7 @@ def detect_person(person_det_model_path, input_img_path):
         for person_bbox in person_bboxes:
             x1, y1, x2, y2 = [int(coord) for coord in person_bbox]
 
-            # Step 2: Crop the image of each detected person
+            # Crop the image of each detected person
             cropped_person = image[y1:y2, x1:x2]
             cropped_persons.append((cropped_person, (x1, y1, x2, y2)))  # Store the cropped person and its original bbox
             
