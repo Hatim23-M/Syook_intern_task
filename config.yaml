@@ -1,0 +1,6 @@
+path: '/content/gdrive/My Drive/yolo_data/data'
+train: images/train
+val: images/train
+
+names:
+  0: person
