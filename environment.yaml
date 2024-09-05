@@ -4,9 +4,10 @@ channels:
   - defaults
 dependencies:
   - python=3.12.4
-  - numpy
-  - pandas
+  - pip
   - pip:
-    - pylabel
+    - numpy
     - opencv-python
     - ultralytics
+    - matplotlib
+    - pillow
