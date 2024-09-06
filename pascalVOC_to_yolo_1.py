@@ -5,7 +5,7 @@ The Pascal VOC format includes XML files that contains bounding box annotations.
 YOLO format represents bounding boxes as normalized coordinates stored in a txt file.
 
 Usage:
-    python script_name.py <input_dir> <output_dir_ppe> <output_dir_person> <class_path>
+    python <script_path> <input_dir>  <output_dir_person> <class_path>
 
 Arguments:
     input_dir (str): The base directory path containing Pascal VOC XML annotations.
